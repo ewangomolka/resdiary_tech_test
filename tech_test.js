@@ -16,7 +16,7 @@ const groupArrayElements = (array, N) => {
 
 console.log(groupArrayElements([1, 2, 3, 4, 5], 3));
 
-// The function groupArrayElements takes an array array and a positive integer N as its arguments.
+// The function groupArrayElements takes an array (array) and a positive integer (N) as its arguments.
 
 // First, the function calculates the remainder of array.length divided by N. This tells us how many elements will be left over after we group array into N chunks of equal size.
 
@@ -41,4 +41,5 @@ console.log(groupArrayElements([1, 2, 3, 4, 5], 3));
 // Once all chunks have been determined and added to the result array, the function returns result, which using the example psuedo-code
 // returns the desired pseudo-code output.
 
-//to run the function please enter into the integreated terminal => node tech_test.js
+// to run the function please enter into the integreated terminal => node tech_test.js
+// you will see in the screenshot attached the result of the function running.
